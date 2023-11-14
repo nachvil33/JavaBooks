@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FEE5E5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #FF7F50;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+footer {
+    background-color: #FF7F50;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    background-color: #FF6347;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #D9534F;
+}
+
+.book-card {
+    background-color: #FFD700;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.book-card button {
+    margin-top: 5px;
+}
